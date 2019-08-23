@@ -1,0 +1,33 @@
+{
+  "name": "express-wolox-sehema-validator",
+  "version": "0.1.0",
+  "description": "",
+  "homepage": "https://github.com/Wolox/express-wolox-schema-validator-node",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Wolox/express-wolox-schema-validator-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wolox/express-wolox-schema-validator-node/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [],
+  "author": "Ignacio Gaspar Torres Sola",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.5.5",
+    "eslint-config-wolox-node": "^2.0.0",
+    "express-wolox-logger": "^1.1.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
