@@ -18,7 +18,7 @@
   "author": "Ignacio Gaspar Torres Sola",
   "license": "ISC",
   "dependencies": {
-    "ajv": "^6.5.5",
+    "ajv": "^7.2.3",
     "eslint-config-wolox-node": "^2.0.0",
     "express-wolox-logger": "^1.1.0"
   },
